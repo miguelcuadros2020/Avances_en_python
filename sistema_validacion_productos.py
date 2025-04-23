@@ -39,7 +39,7 @@ while True:
     try:
         descuento = input("\nIngresa el porcentaje de descuento entre 0 y 100: ")
         
-        if precio_unitario < 0 or precio_unitario > 100:
+        if precio_unitario <= 0 or precio_unitario >= 100:
             raise ValueError()
         break
     except ValueError:
