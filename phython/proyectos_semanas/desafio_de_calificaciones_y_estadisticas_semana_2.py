@@ -116,7 +116,7 @@ while True:
 while solicitud[0] == "S":
     try:
         #solicitamos datos y validamos
-        nota_igual = float(input("\nIngresa la nota en espacifico que quieres consultar: "))
+        nota_igual = float(input("\nIngresa la nota en espacifica que quieres consultar: "))
         if not(0 <= nota_igual <= 100): 
             raise ValueError()
         
